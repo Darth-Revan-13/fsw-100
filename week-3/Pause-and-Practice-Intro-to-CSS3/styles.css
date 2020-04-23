@@ -1,0 +1,31 @@
+.georgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+b > h1 {
+    color:darkgreen;
+}
+#center {
+    text-align: center;
+}
+p {
+    line-height: 25px;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+img {
+    float: left;
+    padding: 25px 25px 25px 25px;
+}
+#uppercase {
+    text-transform: uppercase;
+}
