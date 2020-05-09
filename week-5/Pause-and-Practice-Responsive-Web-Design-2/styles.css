@@ -1,0 +1,103 @@
+hr {
+    border: 5px solid black;
+}
+#gridContainer {
+    background-color: white;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 75px 75px 75px;
+    display: grid;
+    padding: 10px;
+}
+#gridContainer2 {
+    background-color: white;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    display: grid;
+    padding: 10px;
+}
+/*Boxes*/
+#box1 {
+    display: inline-block;
+    grid-column: 1/3;
+    grid-row: 1;
+    background-color: #6600cc;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#box2 {
+    display: inline-block;
+    grid-column: 3/5;
+    grid-row: 1;
+    background-color: #ff1a1a;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#box3 {
+    display: inline-block;
+    grid-column: 1/1;
+    grid-row: 2;
+    background-color: #046307;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#box4 {
+    display: inline-block;
+    grid-column: 2/5;
+    grid-row: 2;
+    background-color: #FFD700;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#box5 {
+    display: inline-block;
+    grid-column: 1/5;
+    grid-row: 3;
+    background-color: #6600cc;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#box6 {
+    display: inline-block;
+    grid-column: 1/5;
+    grid-row: 1;
+    background-color: #ff1a1a;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 200px;
+}
+#box7 {
+    display: inline-block;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    background-color: #6600cc;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 400px;
+}
+#box8 {
+    display: inline-block;
+    grid-column: 3/5;
+    grid-row: 2/2;
+    background-color: #FFD700;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 200px;
+}
+#box9 {
+    display: inline-block;
+    grid-column: 3;
+    grid-row: 3/3;
+    background-color: #046307;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 200px;
+}
+#box10 {
+    display: inline-block;
+    grid-column: 4;
+    grid-row: 3/3;
+    background-color: #046307;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 200px;
+}

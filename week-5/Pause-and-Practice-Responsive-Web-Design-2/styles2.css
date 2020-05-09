@@ -1,0 +1,169 @@
+/*Phone*/
+.column1 {
+    border: 5px solid white;
+    display: inline-block;
+    background-color: #8c8c8c;
+    color: white;
+    min-width: 100%;
+    min-height: 50px;
+    max-height: 50px;
+    border-radius: 10px;
+    padding: 2px;
+}
+#sidebar1 {
+    border: 5px solid white;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    min-width: 100%;
+    min-height: 50px;
+    max-height: 50px;
+    border-radius: 10px;
+    padding: 2px;
+}
+.column2 {
+    border: 5px solid white;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    min-width: 100%;
+    min-height: 50px;
+    max-height: auto;
+    border-radius: 10px;
+    padding: 2px;
+}
+#sidebar2 {
+    border: 5px solid white;
+    display: inline-block;
+    background-color: #cccccc;
+    color: black;
+    min-width: 100%;
+    min-height: 50px;
+    max-height: 50px;
+    border-radius: 10px;
+    padding: 2px;
+}
+.column3 {
+    border: 5px solid white;
+    display: inline-block;
+    background-color: #8c8c8c;
+    color: white;
+    min-width: 100%;
+    min-height: 50px;
+    max-height: 50px;
+    border-radius: 10px;
+    padding: 2px;
+}
+/*Tablets*/
+@media only screen and (min-width: 600px) {
+    .column1 {
+        border: 5px solid white;
+        display: inline-block;
+        background-color: #8c8c8c;
+        color: white;
+        min-width: 100%;
+        min-height: 50px;
+        max-height: 50px;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    #sidebar1 {
+        border: 5px solid white;
+        display: inline-block;
+        background-color: #333333;
+        color: white;
+        min-width: 20%;
+        height: auto;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    .column2 {
+        border: 5px solid white;
+        display: inline-block;
+        background-color: #333333;
+        color: white;
+        min-width: 75%;
+        height: auto;
+        max-height: auto;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    #sidebar2 {
+        border: 5px solid white;
+        display: inline-block;
+        background-color: #cccccc;
+        color: black;
+        min-width: 100%;
+        min-height: 50px;
+        max-height: 50px;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    .column3 {
+        border: 5px solid white;
+        display: inline-block;
+        background-color: #8c8c8c;
+        color: white;
+        min-width: 100%;
+        min-height: 50px;
+        max-height: 50px;
+        border-radius: 10px;
+        padding: 2px;
+    }
+}
+/*Desktop*/
+@media only screen and (min-width: 768px) {
+    .column1 {
+        border: 5px solid white;
+        display: inline-block;
+        background-color: #8c8c8c;
+        color: white;
+        min-width: 100%;
+        min-height: 50px;
+        max-height: 50px;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    #sidebar1 {
+        border: 5px solid white;
+        display: inline-block;
+        background-color: #333333;
+        color: white;
+        min-width: 20%;
+        height: auto;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    .column2 {
+        border: 5px solid white;
+        display: inline-block;
+        background-color: #333333;
+        color: white;
+        min-width: 50%;
+        height: auto;
+        max-height: auto;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    #sidebar2 {
+        border: 5px solid white;
+        display: inline-block;
+        background-color: #cccccc;
+        color: black;
+        min-width: 20%;
+        height: auto;
+        border-radius: 10px;
+        padding: 2px;
+    }
+    .column3 {
+        border: 5px solid white;
+        display: inline-block;
+        background-color: #8c8c8c;
+        color: white;
+        min-width: 100%;
+        min-height: 50px;
+        max-height: 50px;
+        border-radius: 10px;
+        padding: 2px;
+    }
+}
