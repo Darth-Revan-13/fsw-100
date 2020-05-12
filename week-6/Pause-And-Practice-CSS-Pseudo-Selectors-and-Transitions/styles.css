@@ -12,6 +12,7 @@ section {
     border: 2px solid white;
 }
 .box1:hover {
+    transition-duration: 1.5s;
     background-color: #993399;
 }
 .box2 {
@@ -24,6 +25,7 @@ section {
     border: 2px solid white;
 }
 .box2:hover {
+    transition-duration: 2s;
     background-color: #993399;
     border: 5px dashed #FFD700;
 }
@@ -37,9 +39,10 @@ section {
     border: 2px solid white;
 }
 .box3:hover {
+    transition-duration: 4s;
     background-color: #993399;
     border: 5px dashed #FFD700;
-    box-shadow: 5px 10px #046307;
+    margin: 10px;
 }
 .box4 {
     display: inline-block;
@@ -51,10 +54,11 @@ section {
     border: 2px solid white;
 }
 .box4:hover {
+    transition-duration: 4s;
     background-color: #993399;
     border: 5px dashed #FFD700;
     box-shadow: 5px 10px #046307;
-    border-radius: 10px;
+    margin: 10px
 }
 .box5 {
     display: inline-block;
@@ -66,6 +70,7 @@ section {
     border: 2px solid white;
 }
 .box5:hover {
+    transition-duration: 4s;
     background-color: #993399;
     border: 5px dashed #FFD700;
     box-shadow: 5px 10px #046307;
@@ -81,6 +86,7 @@ section {
     border: 2px solid white;
 }
 .box6:hover {
+    transition-duration: 10s;
     background-color: #993399;
     border: 5px dashed #FFD700;
     box-shadow: 5px 10px #046307;
@@ -93,6 +99,7 @@ h6 {
     display: none;
 }
 .box6:hover h6 {
+    transition-delay: 10s;
     color: white;
     display: inline-block;
 }
