@@ -1,0 +1,287 @@
+* {
+    background-color: black;
+    color: white;
+}
+/*mobile*/
+nav > a {
+    float: left;
+    display: block;
+    font-family: 'Righteous', cursive;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+header {
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("Bethesda-Logo.jpg");
+    height: 400px;
+    width: 100%;
+}
+footer {
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("Bethesda-Logo\ \(1\).jpg");
+    height: 125px;
+    width: 100%;
+}
+h1 {
+    font-family: 'Righteous', cursive;
+}
+h2 {
+    font-family: 'Righteous', cursive;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: flex;
+}
+center {
+    display: none;
+}
+#item1 {
+    display: inline-flex;
+}
+#item1:hover center{
+    display: inline-flex;
+}
+#item2 {
+    display: inline-flex;
+}
+#item2:hover center{
+    display: inline-flex;
+}
+#item3 {
+    display: inline-flex;
+}
+#item3:hover center{
+    display: inline-flex;
+}
+#item4 {
+    display: inline-flex;
+}
+#item4:hover center{
+    display: inline-flex;
+}
+#item5 {
+    display: inline-flex;
+}
+#item5:hover center{
+    display: inline-flex;
+}
+#item6 {
+    display: inline-flex;
+}
+#item6:hover center{
+    display: inline-flex;
+}
+#item7 {
+    display: inline-flex;
+}
+#item7:hover center{
+    display: inline-flex;
+}
+#item8 {
+    display: inline-flex;
+}
+#item8:hover center{
+    display: inline-flex;
+}
+#item9 {
+    display: inline-flex;
+}
+#item9:hover center{
+    display: inline-flex;
+}
+@media only screen and (min-width: 600px) {
+    main {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+    nav {
+        overflow: hidden;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    header {
+        background-color: black;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("Bethesda-Logo.jpg");
+        height: 400px;
+        width: 100%;
+    }
+    footer {
+        background-color: black;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("Bethesda-Logo\ \(1\).jpg");
+        height: 125px;
+        width: 100%;
+    }
+    h1 {
+        font-family: 'Righteous', cursive;
+    }
+    h2 {
+        font-family: 'Righteous', cursive;
+    }
+    ul {
+        list-style: none;
+    }
+    center {
+        display: none;
+    }
+    #item1 {
+        display: inline-flex;
+    }
+    #item1:hover center{
+        display: inline-flex;
+    }
+    #item2 {
+        display: inline-flex;
+    }
+    #item2:hover center{
+        display: inline-flex;
+    }
+    #item3 {
+        display: inline-flex;
+    }
+    #item3:hover center{
+        display: inline-flex;
+    }
+    #item4 {
+        display: inline-flex;
+    }
+    #item4:hover center{
+        display: inline-flex;
+    }
+    #item5 {
+        display: inline-flex;
+    }
+    #item5:hover center{
+        display: inline-flex;
+    }
+    #item6 {
+        display: inline-flex;
+    }
+    #item6:hover center{
+        display: inline-flex;
+    }
+    #item7 {
+        display: inline-flex;
+    }
+    #item7:hover center{
+        display: inline-flex;
+    }
+    #item8:hover center{
+        display: inline-flex;
+    }
+    #item9 {
+        display: inline-flex;
+    }
+    #item9:hover center{
+        display: inline-flex;
+    }
+}
+@media only screen and (min-width: 768px) {
+    main {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+    nav {
+        overflow: hidden;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    header {
+        background-color: black;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("Bethesda-Logo.jpg");
+        height: 400px;
+        width: 100%;
+    }
+    footer {
+        background-color: black;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("Bethesda-Logo\ \(1\).jpg");
+        height: 125px;
+        width: 100%;
+    }
+    h1 {
+        font-family: 'Righteous', cursive;
+    }
+    h2 {
+        font-family: 'Righteous', cursive;
+    }
+    ul {
+        list-style: none;
+    }
+    center {
+        display: none;
+    }
+    #item1 {
+        display: inline-flex;
+    }
+    #item1:hover center{
+        display: inline-flex;
+    }
+    #item2 {
+        display: inline-flex;
+    }
+    #item2:hover center{
+        display: inline-flex;
+    }
+    #item3 {
+        display: inline-flex;
+    }
+    #item3:hover center{
+        display: inline-flex;
+    }
+    #item4 {
+        display: inline-flex;
+    }
+    #item4:hover center{
+        display: inline-flex;
+    }
+    #item5 {
+        display: inline-flex;
+    }
+    #item5:hover center{
+        display: inline-flex;
+    }
+    #item6 {
+        display: inline-flex;
+    }
+    #item6:hover center{
+        display: inline-flex;
+    }
+    #item7 {
+        display: inline-flex;
+    }
+    #item7:hover center{
+        display: inline-flex;
+    }
+    #item8:hover center{
+        display: inline-flex;
+    }
+    #item9 {
+        display: inline-flex;
+    }
+    #item9:hover center{
+        display: inline-flex;
+    }
+}
